@@ -10,3 +10,4 @@ step to compile RPC source code:
 5. generate really cilent and server:
    gcc -Wall -o server test_svc.c test_clnt.c test_svc_func.c
    gcc -Wall -o client test_client.c test_clnt.c 
+6. rpcgen --help to get help 
